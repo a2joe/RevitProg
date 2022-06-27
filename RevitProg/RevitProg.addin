@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RevitProg</Text>
+    <Description>Some description for RevitProg</Description>
+    <Assembly>RevitProg.dll</Assembly>
+    <FullClassName>RevitProg.Command</FullClassName>
+    <ClientId>60f828a7-db80-4066-9139-cc0688814ecf</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitProg</Name>
+    <Assembly>RevitProg.dll</Assembly>
+    <FullClassName>RevitProg.App</FullClassName>
+    <ClientId>6c5e3f98-ad53-4424-ac7d-8b80396e5939</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
